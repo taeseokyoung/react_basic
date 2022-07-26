@@ -8,7 +8,7 @@ import Wrapper from "./Wrapper";
 // const App = function(){}
 const App = () => {
     return (
-        //Fragments
+
         <Wrapper>
             <Header />
             <Main tae="태서경" work="노래" />
@@ -19,5 +19,6 @@ const App = () => {
         </Wrapper>
     )
 }
+//return 안의 주석까지 다 데리고 나와버렸다. Fragments
 // 위 컴포넌트 하나만 내보낼 때
 export default App;
